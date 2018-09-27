@@ -1,0 +1,28 @@
+$button-background: #587992;
+
+table.button,
+table.button:visited,
+table.button:active {
+  background: $button-background;
+
+  table tr {
+
+    td,
+    a,
+    a:visited {
+      background: $button-background;
+    }
+  }
+}
+
+table.button:hover {
+  background: darken($button-background, 10%);
+
+  table tr {
+
+    td,
+    a {
+      background: darken($button-background, 10%);
+    }
+  }
+}

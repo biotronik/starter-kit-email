@@ -1,0 +1,40 @@
+/* external  */
+/* BODY  */
+.body__headline-external {
+  color: $primary-color;
+}
+
+.body__text-external {}
+
+.body__link-external {
+  color: $dark-gray !important;
+  text-decoration: underline;
+  line-height: 1;
+}
+
+.body__signature-external {
+  color: $light-blue;
+  font-size: 12px;
+  line-height: .6;
+}
+
+.body__bottomimage-external {
+  padding-bottom: 0px !important;
+}
+
+/* FOOTER  */
+.footer__text-external {
+  color: $dark-gray;
+  font-size: 16px;
+}
+
+.footer__address-external {
+  color: $light-blue;
+  font-size: 12px;
+  line-height: .6;
+}
+
+.contact a {
+  color: $light-blue !important;
+  text-decoration: underline !important;
+}

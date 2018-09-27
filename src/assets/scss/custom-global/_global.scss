@@ -1,0 +1,31 @@
+/* Variables */
+$light-blue: #a3afc8;
+
+/* Hide Top Gutter */
+@media only screen and (max-width: #{$global-breakpoint}) {
+  .top-gutter {
+    display: none;
+  }
+}
+
+/* Preheader */
+.preheader-text {
+  color: #f3f3f3;
+  display: none !important;
+  font-size: 1px;
+  line-height: 1px;
+  max-height: 0;
+  max-width: 0;
+  mso-hide: all !important;
+  opacity: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.logo {
+  width: 250px;
+}
+
+.link {
+  color: $light-blue;
+}
