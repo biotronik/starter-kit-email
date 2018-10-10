@@ -1,0 +1,61 @@
+/* Internal  */
+/* BODY  */
+.body__headline-internal {
+  color: $primary-color;
+}
+
+.body__text-internal {}
+
+.body__link-internal {
+  color: $dark-gray !important;
+  text-decoration: underline;
+  line-height: 1;
+}
+
+.body__signature-internal {
+  color: $light-blue;
+  font-size: 12px;
+  line-height: .6;
+}
+
+.body__bottomimage-internal {
+  padding-bottom: 0px !important;
+}
+
+/* FOOTER  */
+.footer__confidential-internal {
+  color: $dark-gray;
+  font-size: 16px;
+}
+
+.footer__form-description {
+  color: $dark-gray;
+  font-size: 16px;
+}
+
+.footer__survey-compliance {
+  list-style: none;
+  padding-right: 20px;
+}
+
+.footer__survey-options-compliance {
+  display: inline-block;
+  margin-right: 20px;
+
+  img {
+    height: 42px;
+    cursor: pointer;
+  }
+}
+
+.footer__form-link {
+  color: $dark-gray;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.footer__address-internal {
+  color: $light-blue;
+  font-size: 12px;
+  line-height: .4;
+}
