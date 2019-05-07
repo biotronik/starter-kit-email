@@ -13,7 +13,7 @@
 //   8. Thumbnail
 // 1. Global
 // ---------
-$primary-color: #00234C;
+$primary-color: #00234c;
 $secondary-color: #587992;
 $success-color: #3adb76;
 $warning-color: #ffae00;
@@ -33,7 +33,7 @@ $global-padding: 16px;
 $global-margin: 16px;
 $global-radius: 3px;
 $global-rounded: 500px;
-$global-breakpoint: $global-width+$global-gutter;
+$global-breakpoint: $global-width + $global-gutter;
 // 2. Grid
 // -------
 $grid-column-count: 12;
@@ -45,10 +45,8 @@ $block-grid-max: 8;
 $block-grid-gutter: $global-gutter;
 // 4. Typography
 // -------------
-$global-font-color: #373D3F;
-$body-font-family: Helvetica,
-Arial,
-sans-serif;
+$global-font-color: #373d3f;
+$body-font-family: "DINPro", Arial, sans-serif;
 $global-font-weight: normal;
 $header-color: inherit;
 $global-line-height: 1.4;
@@ -85,15 +83,17 @@ $anchor-color-active: $anchor-color-hover;
 $stat-font-size: 40px;
 // 5. Button
 // ---------
-$button-padding: (tiny: 4px 8px 4px 8px,
-small: 5px 10px 5px 10px,
-default: 8px 16px 8px 16px,
-large: 10px 20px 10px 20px,
+$button-padding: (
+  tiny: 4px 8px 4px 8px,
+  small: 5px 10px 5px 10px,
+  default: 8px 16px 8px 16px,
+  large: 10px 20px 10px 20px
 );
-$button-font-size: (tiny: 10px,
-small: 12px,
-default: 16px,
-large: 20px,
+$button-font-size: (
+  tiny: 10px,
+  small: 12px,
+  default: 16px,
+  large: 20px
 );
 $button-color: $white;
 $button-color-alt: $medium-gray;
