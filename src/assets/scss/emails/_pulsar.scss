@@ -17,13 +17,20 @@
   color: #6e6e70;
   font-size: 14px;
 }
+
+.body__bottompadding-pulsar {
+  padding-bottom: 0px !important;
+}
+
 .body__ul-pulsar {
   padding-left: 12px;
 }
+
 .body__li-pulsar {
   padding-left: 0px;
   color: #6e6e70;
 }
+
 .body__redbar-pulsar {
   background-color: #7b0100;
   border-radius: 5px;
@@ -39,22 +46,6 @@
   font-style: oblique;
 }
 
-.body__link-pulsar {
-  color: $dark-gray !important;
-  text-decoration: underline;
-  line-height: 1;
-}
-
-.body__signature-pulsar {
-  color: $light-blue;
-  font-size: 12px;
-  line-height: 0.6;
-}
-
-.body__bottomimage-pulsar {
-  padding-bottom: 0px !important;
-}
-
 /* FOOTER  */
 .footer__text-pulsar {
   color: $dark-gray;
@@ -65,11 +56,6 @@
   color: $light-blue;
   font-size: 12px;
   line-height: 0.6;
-}
-
-.contact-pulsar a {
-  color: inherit;
-  text-decoration: none;
 }
 
 sup {
