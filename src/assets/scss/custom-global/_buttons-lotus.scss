@@ -6,7 +6,6 @@ table.button:active {
   background: $button-background;
 
   table tr {
-
     td,
     a,
     a:visited {
@@ -19,7 +18,6 @@ table.button:hover {
   background: darken($button-background, 10%);
 
   table tr {
-
     td,
     a {
       background: darken($button-background, 10%);

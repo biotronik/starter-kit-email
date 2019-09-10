@@ -1,0 +1,79 @@
+/* biostemi  */
+/* BODY  */
+.body__headline-biostemi {
+  color: #d51566;
+  margin-bottom: 0;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.body__text-biostemi {
+  color: #6e6e70;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 200;
+  font-size: 22px;
+}
+
+.body__subtext-biostemi {
+  color: #d51566;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.body__bottompadding-biostemi {
+  padding-bottom: 0px !important;
+}
+
+.body__ul-biostemi {
+  padding-left: 12px;
+}
+
+.body__li-biostemi {
+  padding-left: 0px;
+  color: #6e6e70;
+}
+
+.body__twocolumn-biostemi {
+  background-color: #333;
+}
+
+.body__footnote-biostemi--text {
+  font-size: 8px;
+  color: #6e6e70;
+}
+
+.body__cta-biostemi {
+  font-size: 18px;
+  color: #d51566;
+  text-align: center;
+  font-weight: 600;
+}
+.body__website-biostemi {
+  font-size: 16px;
+  color: #d51566;
+  text-align: center;
+}
+
+/* FOOTER  */
+.footer__text-biostemi {
+  color: $dark-gray;
+  font-size: 16px;
+}
+
+.footer__address-biostemi {
+  color: $light-blue;
+  font-size: 12px;
+  line-height: 0.6;
+}
+
+sup {
+  line-height: 1;
+  font-size: 60%;
+  vertical-align: top;
+  mso-text-raise: 60%;
+}
+
+a {
+  text-decoration: underline;
+}
